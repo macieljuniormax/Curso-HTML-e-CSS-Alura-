@@ -1,0 +1,23 @@
+body {
+  /* background-color: aquamarine; */
+  /* background: blue; */
+  /* background-color: #00ff00; */
+  background-color: rgb(255, 000, 000);
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  background-color: gray;
+  text-align: center;
+}
+
+strong {
+  color: red;
+}
+
+p em strong {
+  color: blue;
+}
