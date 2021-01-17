@@ -1,0 +1,54 @@
+p {
+  text-align: center;
+}
+#banner {
+  width: 100%;
+}
+
+.principal {
+  background-color: gainsboro;
+  padding: 30px;
+}
+.titulo_principal {
+  padding-left: 20px;
+}
+p .titulo_centralizado {
+  text-align: center;
+}
+
+strong {
+  color: red;
+}
+
+p em strong {
+  color: blue;
+}
+
+#missao {
+  font-size: 30px;
+}
+
+.itens {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.beneficios {
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-right: 15%;
+}
+
+.imagem-beneficios {
+  width: 50%;
+}
