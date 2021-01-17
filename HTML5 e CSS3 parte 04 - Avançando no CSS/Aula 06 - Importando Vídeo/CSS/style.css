@@ -2,6 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
+
 header {
   background-color: #bbbbbb;
   padding: 0 0;
@@ -48,7 +49,7 @@ nav a:hover {
 }
 
 .produtos li {
-  display: inline-box;
+  display: inline-block;
   text-align: center;
   width: 30%;
   vertical-align: top;
@@ -166,6 +167,7 @@ thead {
   background-color: #bbbbbb;
   font-weight: bold;
 }
+
 td,
 th {
   border: 1px solid black;
@@ -201,6 +203,35 @@ th {
   float: left;
   margin: 0 20px 20px 0;
 }
+
+.beneficios {
+  padding: 3em 0;
+}
+
+.conteudo_beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista_beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:nth-child(1) {
+  font-weight: bolder;
+}
+/* .itens:first-child {
+  font-weight: bolder;
+}
+.itens:last-child {
+  font-weight: bolder;
+} */
 
 .imagem_beneficios {
   width: 60%;
